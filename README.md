@@ -5,12 +5,12 @@ Integração com Arduino
 
 A biblioteca Javino foi incluída neste projeto para que fosse possível a comunicação via porta serial com o arquivo python que irá gerar os gráficos.
 
-Instalação do sensor de temperatura no Arduino:
+Instalação do sensor de temperatura no Arduino: (LM35DZ)
 - Conecte o pino ground do sensor ao ground do arduino;
 - Conecte o pino do meio do sensor na porta analógica a ser utilizada no arduino;
 - Conecte o pino vcc do sensor na porta vcc equivalente a 5V do arduino;
 
-Instalação do sensor de luminosidade no Arduino:
+Instalação do sensor de luminosidade no Arduino: (PHOTORESISTOR LDR 5mm)
 - Conecte um pino do sensor ao ground do arduino;
 - Conecte o outro pino a porta analógica a ser utilizada no arduino, colocando entre o sensor e a porta uma resistência de 10k ohm a ser conectada a porta vcc de 5V do arduino;
 
